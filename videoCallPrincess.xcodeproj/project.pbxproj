@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3700192A20AFC3BE005E9B44 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700192920AFC3BE005E9B44 /* LaunchScreenViewController.swift */; };
+		3700192E20B14ED9005E9B44 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700192D20B14ED9005E9B44 /* TutorialPageViewController.swift */; };
+		3711CC012053BD9000BD233C /* outboundRingTone.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3711CC002053BD9000BD233C /* outboundRingTone.mov */; };
+		3711CC032053BF8600BD233C /* openCall.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3711CC022053BF8600BD233C /* openCall.mov */; };
+		3711CC072053C26900BD233C /* callEnded.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3711CC062053C26900BD233C /* callEnded.mov */; };
+		371B30DB20F4EEFA0090D344 /* LockAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B30DA20F4EEFA0090D344 /* LockAlertViewController.swift */; };
+		371C6EEE200C5FA100AFA8A0 /* ParentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C6EED200C5FA100AFA8A0 /* ParentsViewController.swift */; };
+		3740498E20ED907100877F87 /* EpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3740498D20ED907100877F87 /* EpisodesTableViewController.swift */; };
+		3740499020ED935A00877F87 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3740498F20ED935A00877F87 /* PreviewViewController.swift */; };
+		3751244D20085B940044323A /* SF UI Display Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3751244C20085B840044323A /* SF UI Display Light.otf */; };
+		3751244F20085CCD0044323A /* SF-UI-Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3751244E20085CC10044323A /* SF-UI-Display-Regular.ttf */; };
+		376B6A8B206A14CB0021F536 /* clickOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 376B6A8A206A14CA0021F536 /* clickOn.mp3 */; };
+		376B6A8D206A14E50021F536 /* clickOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 376B6A8C206A14E50021F536 /* clickOff.mp3 */; };
+		3771704320C8F82000B68348 /* font18.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3771704220C8F82000B68348 /* font18.ttf */; };
+		377FB58220BE74E2006F5338 /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FB58120BE74E2006F5338 /* aboutUsViewController.swift */; };
+		3782F39C2037EBF100988E3F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782F39B2037EBF100988E3F /* ShareViewController.swift */; };
+		3782F39E203928E200988E3F /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782F39D203928E200988E3F /* Protocols.swift */; };
+		3782F3A0203960BB00988E3F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782F39F203960BB00988E3F /* SettingsTableViewController.swift */; };
+		3782F3A2203A279000988E3F /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782F3A1203A279000988E3F /* PasscodeViewController.swift */; };
+		3782F3A4203A37A400988E3F /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782F3A3203A37A400988E3F /* PermissionViewController.swift */; };
+		378CDBA020EEF3BC00178BE1 /* IncomingVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378CDB9F20EEF3BC00178BE1 /* IncomingVideoViewController.swift */; };
+		378CDBA220EEFF7A00178BE1 /* incomingRingTone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378CDBA120EEFF7A00178BE1 /* incomingRingTone.mp3 */; };
+		37A925AF1FFF255400A4E127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A925AE1FFF255400A4E127 /* AppDelegate.swift */; };
+		37A925B11FFF255400A4E127 /* PrincessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A925B01FFF255400A4E127 /* PrincessViewController.swift */; };
+		37A925B41FFF255400A4E127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A925B21FFF255400A4E127 /* Main.storyboard */; };
+		37A925B71FFF255400A4E127 /* videoCallPrincess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37A925B51FFF255400A4E127 /* videoCallPrincess.xcdatamodeld */; };
+		37A925B91FFF255400A4E127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A925B81FFF255400A4E127 /* Assets.xcassets */; };
+		37A925BC1FFF255400A4E127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A925BA1FFF255400A4E127 /* LaunchScreen.storyboard */; };
+		37AB737820E175C400D9ACBF /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB737720E175C400D9ACBF /* EpisodesViewController.swift */; };
+		37B501042012CE3B001C9D41 /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37B501032012CE39001C9D41 /* SF-UI-Display-Medium.otf */; };
+		37B501072012ED62001C9D41 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B501062012ED62001C9D41 /* PurchaseViewController.swift */; };
+		37B501092013CE1D001C9D41 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B501082013CE1D001C9D41 /* VideoViewController.swift */; };
+		37E679772085C45D007ACC02 /* purchaseAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E679762085C45D007ACC02 /* purchaseAlertViewController.swift */; };
+		37E7459120B390D700A73B21 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7459020B390D700A73B21 /* Classes.swift */; };
+		37E7459320B3E44100A73B21 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7459220B3E43F00A73B21 /* Background.png */; };
+		37ED81D720D7225E000EFBB7 /* PrincessEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED81D620D7225E000EFBB7 /* PrincessEpisodesViewController.swift */; };
+		37ED81DB20D74EA9000EFBB7 /* PrincessEpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED81DA20D74EA9000EFBB7 /* PrincessEpisodesTableViewController.swift */; };
+		37FAED0E20CA1029003F2886 /* princessOneEpisodeThree.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED0D20CA1029003F2886 /* princessOneEpisodeThree.mp4 */; };
+		37FAED1020CA31FC003F2886 /* princessOneEpisodeTwo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED0F20CA31FB003F2886 /* princessOneEpisodeTwo.mp4 */; };
+		37FAED1620CA33EB003F2886 /* princessTwoEpisodeOne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED1520CA33EB003F2886 /* princessTwoEpisodeOne.mp4 */; };
+		37FAED1A20CA3440003F2886 /* princessOneEpisodeFour.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED1920CA3440003F2886 /* princessOneEpisodeFour.mp4 */; };
+		37FAED1E20CA34F7003F2886 /* princessTwoEpisodeTwo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED1D20CA34F7003F2886 /* princessTwoEpisodeTwo.mp4 */; };
+		37FAED2020CA353A003F2886 /* princessTwoEpisodeThree.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED1F20CA353A003F2886 /* princessTwoEpisodeThree.mp4 */; };
+		37FAED2220CA3593003F2886 /* princessTwoEpisodeFour.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED2120CA3593003F2886 /* princessTwoEpisodeFour.mp4 */; };
+		37FAED2C20CA3D04003F2886 /* princessThreeEpisodeFour.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED2720CA3CFE003F2886 /* princessThreeEpisodeFour.mp4 */; };
+		37FAED2E20CA3D04003F2886 /* princessThreeEpisodeOne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED2920CA3D01003F2886 /* princessThreeEpisodeOne.mp4 */; };
+		37FAED2F20CA3D04003F2886 /* princessThreeEpisodeTwo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED2A20CA3D03003F2886 /* princessThreeEpisodeTwo.mp4 */; };
+		37FAED3020CA3D04003F2886 /* princessThreeEpisodeThree.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FAED2B20CA3D04003F2886 /* princessThreeEpisodeThree.mp4 */; };
+		37FCB49620E453E900B8C4B0 /* princessOneEpisodeOne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37FCB49520E453E900B8C4B0 /* princessOneEpisodeOne.mp4 */; };
+		37FE88FC20203E5F00FFCE14 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE88FB20203E5F00FFCE14 /* RecordingsViewController.swift */; };
+		37FE890020243B6A00FFCE14 /* VideoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE88FF20243B6A00FFCE14 /* VideoCellTableViewCell.swift */; };
+		54F980339DA4CA34A7801598 /* Pods_videoCallPrincess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DA9EE839A09E2BA6C0491D /* Pods_videoCallPrincess.framework */; };
+		716EA2BA202022010019B0BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716EA2B9202022010019B0BF /* Extensions.swift */; };
+		71F8881720373D7C00745C00 /* AVAssetExportSession+OverlapVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F8881620373D7C00745C00 /* AVAssetExportSession+OverlapVideos.m */; };
+		8F8C93FB20F9BE5D006E951B /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C93FA20F9BE5D006E951B /* watermark.png */; };
+		8F8C93FF20F9CF6E006E951B /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C93FE20F9CF6E006E951B /* testVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35DA9EE839A09E2BA6C0491D /* Pods_videoCallPrincess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_videoCallPrincess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3700192920AFC3BE005E9B44 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		3700192D20B14ED9005E9B44 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		3711CC002053BD9000BD233C /* outboundRingTone.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = outboundRingTone.mov; sourceTree = "<group>"; };
+		3711CC022053BF8600BD233C /* openCall.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = openCall.mov; sourceTree = "<group>"; };
+		3711CC062053C26900BD233C /* callEnded.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = callEnded.mov; sourceTree = "<group>"; };
+		371B30DA20F4EEFA0090D344 /* LockAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockAlertViewController.swift; sourceTree = "<group>"; };
+		371C6EED200C5FA100AFA8A0 /* ParentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentsViewController.swift; sourceTree = "<group>"; };
+		3740498D20ED907100877F87 /* EpisodesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewController.swift; sourceTree = "<group>"; };
+		3740498F20ED935A00877F87 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		3751244C20085B840044323A /* SF UI Display Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF UI Display Light.otf"; sourceTree = "<group>"; };
+		3751244E20085CC10044323A /* SF-UI-Display-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.ttf"; sourceTree = "<group>"; };
+		376B6A8A206A14CA0021F536 /* clickOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickOn.mp3; sourceTree = "<group>"; };
+		376B6A8C206A14E50021F536 /* clickOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickOff.mp3; sourceTree = "<group>"; };
+		3771704220C8F82000B68348 /* font18.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font18.ttf; sourceTree = "<group>"; };
+		377FB58120BE74E2006F5338 /* aboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
+		3782F39B2037EBF100988E3F /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		3782F39D203928E200988E3F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		3782F39F203960BB00988E3F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3782F3A1203A279000988E3F /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		3782F3A3203A37A400988E3F /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		378CDB9F20EEF3BC00178BE1 /* IncomingVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingVideoViewController.swift; sourceTree = "<group>"; };
+		378CDBA120EEFF7A00178BE1 /* incomingRingTone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incomingRingTone.mp3; sourceTree = "<group>"; };
+		37A925AB1FFF255400A4E127 /* videoCallPrincess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoCallPrincess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A925AE1FFF255400A4E127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A925B01FFF255400A4E127 /* PrincessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincessViewController.swift; sourceTree = "<group>"; };
+		37A925B31FFF255400A4E127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37A925B61FFF255400A4E127 /* videoCallPrincess.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = videoCallPrincess.xcdatamodel; sourceTree = "<group>"; };
+		37A925B81FFF255400A4E127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A925BB1FFF255400A4E127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37A925BD1FFF255400A4E127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37AB737720E175C400D9ACBF /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		37B501032012CE39001C9D41 /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		37B501062012ED62001C9D41 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		37B501082013CE1D001C9D41 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		37E679762085C45D007ACC02 /* purchaseAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseAlertViewController.swift; sourceTree = "<group>"; };
+		37E7459020B390D700A73B21 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		37E7459220B3E43F00A73B21 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		37ED81D620D7225E000EFBB7 /* PrincessEpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincessEpisodesViewController.swift; sourceTree = "<group>"; };
+		37ED81DA20D74EA9000EFBB7 /* PrincessEpisodesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincessEpisodesTableViewController.swift; sourceTree = "<group>"; };
+		37FAED0D20CA1029003F2886 /* princessOneEpisodeThree.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessOneEpisodeThree.mp4; sourceTree = "<group>"; };
+		37FAED0F20CA31FB003F2886 /* princessOneEpisodeTwo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessOneEpisodeTwo.mp4; sourceTree = "<group>"; };
+		37FAED1520CA33EB003F2886 /* princessTwoEpisodeOne.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = princessTwoEpisodeOne.mp4; path = videoCallPrincess/Episodes/princessOne/princessTwoEpisodeOne.mp4; sourceTree = SOURCE_ROOT; };
+		37FAED1920CA3440003F2886 /* princessOneEpisodeFour.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessOneEpisodeFour.mp4; sourceTree = "<group>"; };
+		37FAED1D20CA34F7003F2886 /* princessTwoEpisodeTwo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessTwoEpisodeTwo.mp4; sourceTree = "<group>"; };
+		37FAED1F20CA353A003F2886 /* princessTwoEpisodeThree.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessTwoEpisodeThree.mp4; sourceTree = "<group>"; };
+		37FAED2120CA3593003F2886 /* princessTwoEpisodeFour.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessTwoEpisodeFour.mp4; sourceTree = "<group>"; };
+		37FAED2720CA3CFE003F2886 /* princessThreeEpisodeFour.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessThreeEpisodeFour.mp4; sourceTree = "<group>"; };
+		37FAED2920CA3D01003F2886 /* princessThreeEpisodeOne.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessThreeEpisodeOne.mp4; sourceTree = "<group>"; };
+		37FAED2A20CA3D03003F2886 /* princessThreeEpisodeTwo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessThreeEpisodeTwo.mp4; sourceTree = "<group>"; };
+		37FAED2B20CA3D04003F2886 /* princessThreeEpisodeThree.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessThreeEpisodeThree.mp4; sourceTree = "<group>"; };
+		37FCB49520E453E900B8C4B0 /* princessOneEpisodeOne.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = princessOneEpisodeOne.mp4; sourceTree = "<group>"; };
+		37FE88FB20203E5F00FFCE14 /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		37FE88FF20243B6A00FFCE14 /* VideoCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCellTableViewCell.swift; sourceTree = "<group>"; };
+		3BE9BF244A4D523363BC465C /* Pods-videoCallPrincess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoCallPrincess.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoCallPrincess/Pods-videoCallPrincess.release.xcconfig"; sourceTree = "<group>"; };
+		716EA2B9202022010019B0BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		71F8881320373D0E00745C00 /* videoCallPrincess-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "videoCallPrincess-Bridging-Header.h"; sourceTree = "<group>"; };
+		71F8881420373D0E00745C00 /* AVAssetExportSession+OverlapVideos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAssetExportSession+OverlapVideos.h"; sourceTree = "<group>"; };
+		71F8881620373D7C00745C00 /* AVAssetExportSession+OverlapVideos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAssetExportSession+OverlapVideos.m"; sourceTree = "<group>"; };
+		8F8C93FA20F9BE5D006E951B /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermark.png; path = ../../watermark.png; sourceTree = "<group>"; };
+		8F8C93FE20F9CF6E006E951B /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		981CC64E2BFE639C6FD35CC7 /* Pods-videoCallPrincess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoCallPrincess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoCallPrincess/Pods-videoCallPrincess.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A925A81FFF255400A4E127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F980339DA4CA34A7801598 /* Pods_videoCallPrincess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3711CC042053C22C00BD233C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				376B6A8A206A14CA0021F536 /* clickOn.mp3 */,
+				376B6A8C206A14E50021F536 /* clickOff.mp3 */,
+				378CDBA120EEFF7A00178BE1 /* incomingRingTone.mp3 */,
+				3711CC002053BD9000BD233C /* outboundRingTone.mov */,
+				3711CC022053BF8600BD233C /* openCall.mov */,
+				3711CC062053C26900BD233C /* callEnded.mov */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3711CC052053C24200BD233C /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				37FAED0C20C9E635003F2886 /* princessOne */,
+				37FAED1320CA3298003F2886 /* princessTwo */,
+				37FAED1420CA32A5003F2886 /* princessThree */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		3779D76520EFE4120093E1E5 /* parentsOnlyVCs */ = {
+			isa = PBXGroup;
+			children = (
+				371C6EED200C5FA100AFA8A0 /* ParentsViewController.swift */,
+				3779D76620EFE4780093E1E5 /* recordingsVCs */,
+				3779D76720EFE4950093E1E5 /* episodesVCs */,
+				3779D76820EFE4AA0093E1E5 /* settingsVCs */,
+			);
+			path = parentsOnlyVCs;
+			sourceTree = "<group>";
+		};
+		3779D76620EFE4780093E1E5 /* recordingsVCs */ = {
+			isa = PBXGroup;
+			children = (
+				37FE88FB20203E5F00FFCE14 /* RecordingsViewController.swift */,
+				37FE88FF20243B6A00FFCE14 /* VideoCellTableViewCell.swift */,
+				3782F39B2037EBF100988E3F /* ShareViewController.swift */,
+			);
+			path = recordingsVCs;
+			sourceTree = "<group>";
+		};
+		3779D76720EFE4950093E1E5 /* episodesVCs */ = {
+			isa = PBXGroup;
+			children = (
+				37B501062012ED62001C9D41 /* PurchaseViewController.swift */,
+				37E679762085C45D007ACC02 /* purchaseAlertViewController.swift */,
+				37ED81D620D7225E000EFBB7 /* PrincessEpisodesViewController.swift */,
+				37ED81DA20D74EA9000EFBB7 /* PrincessEpisodesTableViewController.swift */,
+				37AB737720E175C400D9ACBF /* EpisodesViewController.swift */,
+				3740498D20ED907100877F87 /* EpisodesTableViewController.swift */,
+				3740498F20ED935A00877F87 /* PreviewViewController.swift */,
+				378CDB9F20EEF3BC00178BE1 /* IncomingVideoViewController.swift */,
+				8F8C93FE20F9CF6E006E951B /* testVC.swift */,
+			);
+			path = episodesVCs;
+			sourceTree = "<group>";
+		};
+		3779D76820EFE4AA0093E1E5 /* settingsVCs */ = {
+			isa = PBXGroup;
+			children = (
+				3782F39F203960BB00988E3F /* SettingsTableViewController.swift */,
+				377FB58120BE74E2006F5338 /* aboutUsViewController.swift */,
+			);
+			path = settingsVCs;
+			sourceTree = "<group>";
+		};
+		3779D76920EFE5400093E1E5 /* firstScreenVCs */ = {
+			isa = PBXGroup;
+			children = (
+				3700192920AFC3BE005E9B44 /* LaunchScreenViewController.swift */,
+				3700192D20B14ED9005E9B44 /* TutorialPageViewController.swift */,
+				3782F3A3203A37A400988E3F /* PermissionViewController.swift */,
+				371B30DA20F4EEFA0090D344 /* LockAlertViewController.swift */,
+				37A925B01FFF255400A4E127 /* PrincessViewController.swift */,
+				37B501082013CE1D001C9D41 /* VideoViewController.swift */,
+				3782F3A1203A279000988E3F /* PasscodeViewController.swift */,
+			);
+			path = firstScreenVCs;
+			sourceTree = "<group>";
+		};
+		37A925A21FFF255400A4E127 = {
+			isa = PBXGroup;
+			children = (
+				37A925AD1FFF255400A4E127 /* videoCallPrincess */,
+				37A925AC1FFF255400A4E127 /* Products */,
+				82AC212C9E73DD986BB71B11 /* Pods */,
+				50E0685BAD3C573A63B73443 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37A925AC1FFF255400A4E127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A925AB1FFF255400A4E127 /* videoCallPrincess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A925AD1FFF255400A4E127 /* videoCallPrincess */ = {
+			isa = PBXGroup;
+			children = (
+				37A925BA1FFF255400A4E127 /* LaunchScreen.storyboard */,
+				37A925B21FFF255400A4E127 /* Main.storyboard */,
+				37A925AE1FFF255400A4E127 /* AppDelegate.swift */,
+				3779D76920EFE5400093E1E5 /* firstScreenVCs */,
+				3779D76520EFE4120093E1E5 /* parentsOnlyVCs */,
+				37A925B81FFF255400A4E127 /* Assets.xcassets */,
+				37E7459220B3E43F00A73B21 /* Background.png */,
+				8F8C93FA20F9BE5D006E951B /* watermark.png */,
+				3711CC052053C24200BD233C /* Episodes */,
+				3711CC042053C22C00BD233C /* Sounds */,
+				37A925BD1FFF255400A4E127 /* Info.plist */,
+				37B501052012CE4B001C9D41 /* Fonts */,
+				37A925B51FFF255400A4E127 /* videoCallPrincess.xcdatamodeld */,
+				716EA2B9202022010019B0BF /* Extensions.swift */,
+				37E7459020B390D700A73B21 /* Classes.swift */,
+				3782F39D203928E200988E3F /* Protocols.swift */,
+				71F8881420373D0E00745C00 /* AVAssetExportSession+OverlapVideos.h */,
+				71F8881620373D7C00745C00 /* AVAssetExportSession+OverlapVideos.m */,
+				71F8881320373D0E00745C00 /* videoCallPrincess-Bridging-Header.h */,
+			);
+			path = videoCallPrincess;
+			sourceTree = "<group>";
+		};
+		37B501052012CE4B001C9D41 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3771704220C8F82000B68348 /* font18.ttf */,
+				3751244E20085CC10044323A /* SF-UI-Display-Regular.ttf */,
+				3751244C20085B840044323A /* SF UI Display Light.otf */,
+				37B501032012CE39001C9D41 /* SF-UI-Display-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		37FAED0C20C9E635003F2886 /* princessOne */ = {
+			isa = PBXGroup;
+			children = (
+				37FCB49520E453E900B8C4B0 /* princessOneEpisodeOne.mp4 */,
+				37FAED0F20CA31FB003F2886 /* princessOneEpisodeTwo.mp4 */,
+				37FAED0D20CA1029003F2886 /* princessOneEpisodeThree.mp4 */,
+				37FAED1920CA3440003F2886 /* princessOneEpisodeFour.mp4 */,
+			);
+			path = princessOne;
+			sourceTree = "<group>";
+		};
+		37FAED1320CA3298003F2886 /* princessTwo */ = {
+			isa = PBXGroup;
+			children = (
+				37FAED1520CA33EB003F2886 /* princessTwoEpisodeOne.mp4 */,
+				37FAED1D20CA34F7003F2886 /* princessTwoEpisodeTwo.mp4 */,
+				37FAED1F20CA353A003F2886 /* princessTwoEpisodeThree.mp4 */,
+				37FAED2120CA3593003F2886 /* princessTwoEpisodeFour.mp4 */,
+			);
+			path = princessTwo;
+			sourceTree = "<group>";
+		};
+		37FAED1420CA32A5003F2886 /* princessThree */ = {
+			isa = PBXGroup;
+			children = (
+				37FAED2920CA3D01003F2886 /* princessThreeEpisodeOne.mp4 */,
+				37FAED2A20CA3D03003F2886 /* princessThreeEpisodeTwo.mp4 */,
+				37FAED2B20CA3D04003F2886 /* princessThreeEpisodeThree.mp4 */,
+				37FAED2720CA3CFE003F2886 /* princessThreeEpisodeFour.mp4 */,
+			);
+			path = princessThree;
+			sourceTree = "<group>";
+		};
+		50E0685BAD3C573A63B73443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35DA9EE839A09E2BA6C0491D /* Pods_videoCallPrincess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AC212C9E73DD986BB71B11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				981CC64E2BFE639C6FD35CC7 /* Pods-videoCallPrincess.debug.xcconfig */,
+				3BE9BF244A4D523363BC465C /* Pods-videoCallPrincess.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A925AA1FFF255400A4E127 /* videoCallPrincess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A925C01FFF255400A4E127 /* Build configuration list for PBXNativeTarget "videoCallPrincess" */;
+			buildPhases = (
+				DA32F68682FD7A0D9A6F5CFA /* [CP] Check Pods Manifest.lock */,
+				37A925A71FFF255400A4E127 /* Sources */,
+				37A925A81FFF255400A4E127 /* Frameworks */,
+				37A925A91FFF255400A4E127 /* Resources */,
+				BCEDFCCD2209F5C32938CFC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videoCallPrincess;
+			productName = videoCallPrincess;
+			productReference = 37A925AB1FFF255400A4E127 /* videoCallPrincess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A925A31FFF255400A4E127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Colter Conway";
+				TargetAttributes = {
+					37A925AA1FFF255400A4E127 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 37A925A61FFF255400A4E127 /* Build configuration list for PBXProject "videoCallPrincess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37A925A21FFF255400A4E127;
+			productRefGroup = 37A925AC1FFF255400A4E127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A925AA1FFF255400A4E127 /* videoCallPrincess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A925A91FFF255400A4E127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FAED2020CA353A003F2886 /* princessTwoEpisodeThree.mp4 in Resources */,
+				37FAED1620CA33EB003F2886 /* princessTwoEpisodeOne.mp4 in Resources */,
+				3751244F20085CCD0044323A /* SF-UI-Display-Regular.ttf in Resources */,
+				37FAED2F20CA3D04003F2886 /* princessThreeEpisodeTwo.mp4 in Resources */,
+				376B6A8B206A14CB0021F536 /* clickOn.mp3 in Resources */,
+				3771704320C8F82000B68348 /* font18.ttf in Resources */,
+				37FAED2E20CA3D04003F2886 /* princessThreeEpisodeOne.mp4 in Resources */,
+				376B6A8D206A14E50021F536 /* clickOff.mp3 in Resources */,
+				3711CC012053BD9000BD233C /* outboundRingTone.mov in Resources */,
+				37B501042012CE3B001C9D41 /* SF-UI-Display-Medium.otf in Resources */,
+				8F8C93FB20F9BE5D006E951B /* watermark.png in Resources */,
+				37E7459320B3E44100A73B21 /* Background.png in Resources */,
+				37FAED3020CA3D04003F2886 /* princessThreeEpisodeThree.mp4 in Resources */,
+				37FAED1E20CA34F7003F2886 /* princessTwoEpisodeTwo.mp4 in Resources */,
+				37FAED2220CA3593003F2886 /* princessTwoEpisodeFour.mp4 in Resources */,
+				37FAED2C20CA3D04003F2886 /* princessThreeEpisodeFour.mp4 in Resources */,
+				37FCB49620E453E900B8C4B0 /* princessOneEpisodeOne.mp4 in Resources */,
+				3711CC072053C26900BD233C /* callEnded.mov in Resources */,
+				3711CC032053BF8600BD233C /* openCall.mov in Resources */,
+				378CDBA220EEFF7A00178BE1 /* incomingRingTone.mp3 in Resources */,
+				3751244D20085B940044323A /* SF UI Display Light.otf in Resources */,
+				37FAED0E20CA1029003F2886 /* princessOneEpisodeThree.mp4 in Resources */,
+				37A925BC1FFF255400A4E127 /* LaunchScreen.storyboard in Resources */,
+				37FAED1020CA31FC003F2886 /* princessOneEpisodeTwo.mp4 in Resources */,
+				37A925B91FFF255400A4E127 /* Assets.xcassets in Resources */,
+				37A925B41FFF255400A4E127 /* Main.storyboard in Resources */,
+				37FAED1A20CA3440003F2886 /* princessOneEpisodeFour.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCEDFCCD2209F5C32938CFC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-videoCallPrincess/Pods-videoCallPrincess-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoCallPrincess/Pods-videoCallPrincess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA32F68682FD7A0D9A6F5CFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-videoCallPrincess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A925A71FFF255400A4E127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C93FF20F9CF6E006E951B /* testVC.swift in Sources */,
+				37ED81DB20D74EA9000EFBB7 /* PrincessEpisodesTableViewController.swift in Sources */,
+				37ED81D720D7225E000EFBB7 /* PrincessEpisodesViewController.swift in Sources */,
+				37E7459120B390D700A73B21 /* Classes.swift in Sources */,
+				37FE88FC20203E5F00FFCE14 /* RecordingsViewController.swift in Sources */,
+				3782F3A4203A37A400988E3F /* PermissionViewController.swift in Sources */,
+				37B501092013CE1D001C9D41 /* VideoViewController.swift in Sources */,
+				37A925B71FFF255400A4E127 /* videoCallPrincess.xcdatamodeld in Sources */,
+				37A925B11FFF255400A4E127 /* PrincessViewController.swift in Sources */,
+				3782F39C2037EBF100988E3F /* ShareViewController.swift in Sources */,
+				3700192E20B14ED9005E9B44 /* TutorialPageViewController.swift in Sources */,
+				37AB737820E175C400D9ACBF /* EpisodesViewController.swift in Sources */,
+				37A925AF1FFF255400A4E127 /* AppDelegate.swift in Sources */,
+				3782F3A0203960BB00988E3F /* SettingsTableViewController.swift in Sources */,
+				37E679772085C45D007ACC02 /* purchaseAlertViewController.swift in Sources */,
+				3782F3A2203A279000988E3F /* PasscodeViewController.swift in Sources */,
+				371C6EEE200C5FA100AFA8A0 /* ParentsViewController.swift in Sources */,
+				71F8881720373D7C00745C00 /* AVAssetExportSession+OverlapVideos.m in Sources */,
+				37B501072012ED62001C9D41 /* PurchaseViewController.swift in Sources */,
+				3782F39E203928E200988E3F /* Protocols.swift in Sources */,
+				716EA2BA202022010019B0BF /* Extensions.swift in Sources */,
+				3740499020ED935A00877F87 /* PreviewViewController.swift in Sources */,
+				3700192A20AFC3BE005E9B44 /* LaunchScreenViewController.swift in Sources */,
+				3740498E20ED907100877F87 /* EpisodesTableViewController.swift in Sources */,
+				371B30DB20F4EEFA0090D344 /* LockAlertViewController.swift in Sources */,
+				378CDBA020EEF3BC00178BE1 /* IncomingVideoViewController.swift in Sources */,
+				377FB58220BE74E2006F5338 /* aboutUsViewController.swift in Sources */,
+				37FE890020243B6A00FFCE14 /* VideoCellTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37A925B21FFF255400A4E127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A925B31FFF255400A4E127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37A925BA1FFF255400A4E127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A925BB1FFF255400A4E127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A925BE1FFF255400A4E127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37A925BF1FFF255400A4E127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A925C11FFF255400A4E127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981CC64E2BFE639C6FD35CC7 /* Pods-videoCallPrincess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QL7V57L422;
+				INFOPLIST_FILE = videoCallPrincess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.com.videoCallPrincess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "videoCallPrincess/videoCallPrincess-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A925C21FFF255400A4E127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE9BF244A4D523363BC465C /* Pods-videoCallPrincess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QL7V57L422;
+				INFOPLIST_FILE = videoCallPrincess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.com.videoCallPrincess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "videoCallPrincess/videoCallPrincess-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A925A61FFF255400A4E127 /* Build configuration list for PBXProject "videoCallPrincess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A925BE1FFF255400A4E127 /* Debug */,
+				37A925BF1FFF255400A4E127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A925C01FFF255400A4E127 /* Build configuration list for PBXNativeTarget "videoCallPrincess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A925C11FFF255400A4E127 /* Debug */,
+				37A925C21FFF255400A4E127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37A925B51FFF255400A4E127 /* videoCallPrincess.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37A925B61FFF255400A4E127 /* videoCallPrincess.xcdatamodel */,
+			);
+			currentVersion = 37A925B61FFF255400A4E127 /* videoCallPrincess.xcdatamodel */;
+			path = videoCallPrincess.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37A925A31FFF255400A4E127 /* Project object */;
+}

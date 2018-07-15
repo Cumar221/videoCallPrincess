@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happiestLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Ksf-gR-VjW">
+                                <rect key="frame" x="41.333333333333343" y="65.666666666666686" width="331.33333333333326" height="531.33333333333326"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ksf-gR-VjW" secondAttribute="height" multiplier="331:530" id="mgg-AD-hMf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happiestapps.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A06-py-cjI">
+                                <rect key="frame" x="41.333333333333343" y="576.66666666666663" width="331.33333333333326" height="36.666666666666629"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ksf-gR-VjW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Id9-Md-FDl"/>
+                            <constraint firstItem="A06-py-cjI" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.05" id="XNh-Fr-f1U"/>
+                            <constraint firstItem="A06-py-cjI" firstAttribute="width" secondItem="Ksf-gR-VjW" secondAttribute="width" id="cSs-UF-yrf"/>
+                            <constraint firstItem="A06-py-cjI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="drn-Hp-5aR"/>
+                            <constraint firstItem="Ksf-gR-VjW" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="me4-jP-OTj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A06-py-cjI" secondAttribute="bottom" multiplier="1.2" id="sZP-pN-oIV"/>
+                            <constraint firstItem="Ksf-gR-VjW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.9" id="zlm-Yl-gpE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="happiestLogo" width="920" height="530"/>
+    </resources>
+</document>
